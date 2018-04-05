@@ -11,5 +11,3 @@ The package contains three types: Matrix, Element and Head.
 Matrix is a container of Element and these are modelled after the Golang standard library's List. Matrix has two separate classes of elements, namely header elements and standard elements. The header elements are also used to serve the purpose of sentinel elelents, thus Matrix does not contain explicit sentinel elements. Head is used as the Value of the elements contained in the Matrix's header. The header is used to define the various constraint columns within the sparse matrix.
 
 The API allows for the creation of a newly initialized Matrix, for pushing Header Elements and Standard Elements with PushHead and PushItem respectively. Solve can be invoked to find all solutions for the given problem in its current state, it returns the found solutions in a slice, each being a slice of strings that exactly covers the problem space.
-
-## Package Documentation
