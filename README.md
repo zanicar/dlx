@@ -16,4 +16,4 @@ The API allows for the creation of a newly initialized Matrix, for pushing Heade
 https://godoc.org/github.com/zanicar/dlx
 
 ## Sudoku Implementation
-A terminal based Sudoku solver that supports multiple sizes and multiple solutions: github.com/zanicar/sudoku
+A terminal based Sudoku solver that supports multiple sizes and multiple solutions: https://github.com/zanicar/sudoku
