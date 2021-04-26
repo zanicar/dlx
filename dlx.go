@@ -145,7 +145,6 @@ func (m *Matrix) search(k int) {
 		}
 	}
 	m.uncover(c)
-	return
 }
 
 // Solve invokes a search for solutions from the root (level 0) and returns
